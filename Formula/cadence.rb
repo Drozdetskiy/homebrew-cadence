@@ -3,8 +3,8 @@ class Cadence < Formula
 
   desc "CLI tool for autonomous task execution via Claude Code"
   homepage "https://github.com/Drozdetskiy/cadence"
-  url "https://files.pythonhosted.org/packages/cd/4e/046930d746391485289f68e4e1c2554c3dfb6a015edc74e95c753b382f4e/cadence_runner-0.19.2.tar.gz"
-  sha256 "661c5ddd4e5b6334549a3854480b0f8cd347b23e5f29df8f49cd8ea38aa55821"
+  url "https://files.pythonhosted.org/packages/cc/82/6d618fd0faa03724d788f8a76e9cc518fefe93d3dabb1578d512e0c9c840/cadence_runner-0.20.0.tar.gz"
+  sha256 "88cae27b0c1684ee6713956e970648b220a609ff889035efe4eeb4dec6d77144"
   license "MIT"
 
   depends_on "python@3.14"
