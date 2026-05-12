@@ -3,8 +3,8 @@ class CadenceMemory < Formula
 
   desc "Cross-project knowledge layer for Claude Code, complementing cadence"
   homepage "https://github.com/Drozdetskiy/cadence-memory"
-  url "https://files.pythonhosted.org/packages/9a/d7/94cf75e064a2c88364819dab1d9382c30359a03d096d543c97f54bd64c1b/cadence_memory-0.1.0.tar.gz"
-  sha256 "ebcacec20ce885c55df88e7b27cb460fe05558ae9ebcc73ca8e8d4f57c701917"
+  url "https://files.pythonhosted.org/packages/f6/6c/de43be9811358a76f5f0ae8c7fa1e92dc779f2313f087725314f42c7fbfa/cadence_memory-0.4.0.tar.gz"
+  sha256 "28aa61417230edd571bba05fb8f56d4f356d42b829df9e1d7de36cc5e1d80488"
   license "MIT"
 
   depends_on "python@3.14"
@@ -20,8 +20,8 @@ class CadenceMemory < Formula
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz"
-    sha256 "cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3"
+    url "https://files.pythonhosted.org/packages/06/ff/7841249c247aa650a76b9ee4bbaeae59370dc8bfd2f6c01f3630c35eb134/markdown_it_py-4.2.0.tar.gz"
+    sha256 "04a21681d6fbb623de53f6f364d352309d4094dd4194040a10fd51833e418d49"
   end
 
   resource "mdurl" do
@@ -32,6 +32,11 @@ class CadenceMemory < Formula
   resource "Pygments" do
     url "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz"
     sha256 "6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f"
+  end
+
+  resource "ruamel.yaml" do
+    url "https://files.pythonhosted.org/packages/c7/3b/ebda527b56beb90cb7652cb1c7e4f91f48649fbcd8d2eb2fb6e77cd3329b/ruamel_yaml-0.19.1.tar.gz"
+    sha256 "53eb66cd27849eff968ebf8f0bf61f46cdac2da1d1f3576dd4ccee9b25c31993"
   end
 
   resource "python-frontmatter" do
