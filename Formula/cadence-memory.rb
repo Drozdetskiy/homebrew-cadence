@@ -3,8 +3,8 @@ class CadenceMemory < Formula
 
   desc "Cross-project knowledge layer for Claude Code, complementing cadence"
   homepage "https://github.com/Drozdetskiy/cadence-memory"
-  url "https://files.pythonhosted.org/packages/f6/6c/de43be9811358a76f5f0ae8c7fa1e92dc779f2313f087725314f42c7fbfa/cadence_memory-0.4.0.tar.gz"
-  sha256 "28aa61417230edd571bba05fb8f56d4f356d42b829df9e1d7de36cc5e1d80488"
+  url "https://files.pythonhosted.org/packages/96/cc/890b12750db05d8af3c5051adb0a7322fe96ee51f952d3b3e80ffaaea196/cadence_memory-0.4.2.tar.gz"
+  sha256 "dc5ffca86e081e4153ebf31fe2bb9c31a722c3f47445fca03a28ded2c3602240"
   license "MIT"
 
   depends_on "python@3.14"
